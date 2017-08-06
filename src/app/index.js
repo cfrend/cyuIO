@@ -1,6 +1,5 @@
 import React from 'react';
 import { render } from "react-dom";
-import
 
 import { Header } from "./components/Header";
 import { Product } from "./components/Product";
