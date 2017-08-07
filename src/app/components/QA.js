@@ -6,8 +6,9 @@ export class QA extends React.Component {
             return(
                   <ScrollableAnchor id={'QA'}>
                     <div className="container-fluid">
-                        <div className="jumbotron" >
-
+                        <div className="jumbotronBlu2" >
+                              <h1>Testing Text</h1>
+                              <hr className="my-4" />
                         </div>
                   </div>
             </ScrollableAnchor>

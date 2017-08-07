@@ -6,8 +6,8 @@ export class IP extends React.Component {
             return(
                   <ScrollableAnchor id={'IP'}>
                     <div className="container-fluid">
-                        <div className="jumbotron" >
-
+                        <div className="jumbotronBlu3" >
+                              <h1 className="text-muted">Testing Text</h1>
                         </div>
                   </div>
             </ScrollableAnchor>

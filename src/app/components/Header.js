@@ -28,9 +28,9 @@ export class Header extends React.Component {
                               {/*example of active state just in case I want to express this*/}
                               {/*<li className="active"><a href="#">Product <span className="sr-only">(current)</span></a></li>*/}
                                 <li><a href='#Product'>Product</a></li>
-                                <li><a href="#">Order</a></li>
-                                <li><a href="#">Q&A</a></li>
-                                <li><a href="#">IP</a></li>
+                                <li><a href="#Order">Order</a></li>
+                                <li><a href="#QA">Q&A</a></li>
+                                <li><a href="#IP">IP</a></li>
                                 <li><a href="#">Developers</a></li>
                               </ul>
                               {/* right side navbar*/}

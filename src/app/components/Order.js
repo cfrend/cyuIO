@@ -6,8 +6,8 @@ export class Order extends React.Component {
             return(
                   <ScrollableAnchor id={'Order'}>
                     <div className="container-fluid">
-                        <div className="jumbotron" >
-
+                        <div className="jumbotronGry1" >
+                              <h1>Testing Text</h1>
                         </div>
                   </div>
             </ScrollableAnchor>

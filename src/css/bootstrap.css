@@ -1371,6 +1371,55 @@ a.text-danger:hover,
 a.text-danger:focus {
   color: #843534;
 }
+.text-cyutilBlack {
+  color: #000000;
+}
+a.text-cyutilBlack:hover,
+a.text-cyutilBlack:focus {
+  color: #3895d1;
+}
+.text-cyutilWhite {
+  color: #ffffff;
+}
+a.text-cyutilWhite:hover,
+a.text-cyutilWhite:focus {
+  color: #43535e;
+}
+.text-cyutilBlu1 {
+  color: #3895d1;
+}
+a.text-cyutilBlu1:hover,
+a.text-cyutilBlu1:focus {
+  color: #3f3f3f;
+}
+.text-cyutilBlu2 {
+  color: #43535e;
+}
+a.text-cyutilBlu2:hover,
+a.text-cyutilBlu2:focus {
+  color: #ffffff;
+}
+.text-cyutilBlu3 {
+  color: #17415d;
+}
+a.text-cyutilBlu3:hover,
+a.text-cyutilBlu3:focus {
+  color: #3895d1;
+}
+.text-cyutilGry1 {
+  color: #959595;
+}
+a.text-cyutilGry1:hover,
+a.text-cyutilGry1:focus {
+  color: #ffffff;
+}
+.text-cyutilGry2 {
+  color: #3f3f3f;
+}
+a.text-cyutilGry2:hover,
+a.text-cyutilGry2:focus {
+  color: #959595;
+}
 .bg-primary {
   color: #fff;
   background-color: #337ab7;
@@ -4998,6 +5047,230 @@ a.badge:focus {
     font-size: 63px;
   }
 }
+
+
+
+
+.jumbotronBlu1 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  color: inherit;
+  background-color: #3895d1;
+}
+.jumbotronBlu1 h1,
+.jumbotronBlu1 .h1 {
+  color: inherit;
+}
+.jumbotronBlu1 p {
+  margin-bottom: 15px;
+  font-size: 21px;
+  font-weight: 200;
+}
+.jumbotronBlu1 > hr {
+  border-top-color: #d5d5d5;
+}
+.container .jumbotronBlu1,
+.container-fluid .jumbotronBlu1 {
+  padding-right: 15px;
+  padding-left: 15px;
+  border-radius: 6px;
+}
+.jumbotronBlu1 .container {
+  max-width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .jumbotronBlu1 {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+  .container .jumbotronBlu1,
+  .container-fluid .jumbotronBlu1 {
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+  .jumbotronBlu1 h1,
+  .jumbotronBlu1 .h1 {
+    font-size: 63px;
+  }
+}
+.jumbotronBlu2 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  color: inherit;
+  background-color: #43535e;
+}
+.jumbotronBlu2 h1,
+.jumbotronBlu2 .h1 {
+  color: inherit;
+}
+.jumbotronBlu2 p {
+  margin-bottom: 15px;
+  font-size: 21px;
+  font-weight: 200;
+}
+.jumbotronBlu2 > hr {
+  border-top-color: #d5d5d5;
+}
+.container .jumbotronBlu2,
+.container-fluid .jumbotronBlu2 {
+  padding-right: 15px;
+  padding-left: 15px;
+  border-radius: 6px;
+}
+.jumbotronBlu2 .container {
+  max-width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .jumbotronBlu2 {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+  .container .jumbotronBlu2,
+  .container-fluid .jumbotronBlu2 {
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+  .jumbotronBlu2 h1,
+  .jumbotronBlu2 .h1 {
+    font-size: 63px;
+  }
+}
+.jumbotronBlu3 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  color: inherit;
+  background-color: #17415d;
+}
+.jumbotronBlu3 h1,
+.jumbotronBlu3 .h1 {
+  color: inherit;
+}
+.jumbotronBlu3 p {
+  margin-bottom: 15px;
+  font-size: 21px;
+  font-weight: 200;
+}
+.jumbotronBlu3 > hr {
+  border-top-color: #d5d5d5;
+}
+.container .jumbotronBlu3,
+.container-fluid .jumbotronBlu3 {
+  padding-right: 15px;
+  padding-left: 15px;
+  border-radius: 6px;
+}
+.jumbotronBlu3 .container {
+  max-width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .jumbotronBlu3 {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+  .container .jumbotronBlu3,
+  .container-fluid .jumbotronBlu3 {
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+  .jumbotronBlu3 h1,
+  .jumbotronBlu3 .h1 {
+    font-size: 63px;
+  }
+}
+
+
+.jumbotronGry1 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  color: inherit;
+  background-color: #959595;
+}
+.jumbotronGry1 h1,
+.jumbotronGry1 .h1 {
+  color: inherit;
+}
+.jumbotronGry1 p {
+  margin-bottom: 15px;
+  font-size: 21px;
+  font-weight: 200;
+}
+.jumbotronGry1 > hr {
+  border-top-color: #d5d5d5;
+}
+.container .jumbotronGry1,
+.container-fluid .jumbotronGry1 {
+  padding-right: 15px;
+  padding-left: 15px;
+  border-radius: 6px;
+}
+.jumbotronGry1 .container {
+  max-width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .jumbotronGry1 {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+  .container .jumbotronGry1,
+  .container-fluid .jumbotronGry1 {
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+  .jumbotronGry1 h1,
+  .jumbotronGry1 .h1 {
+    font-size: 63px;
+  }
+}
+.jumbotronGry2 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  color: inherit;
+  background-color: #3f3f3f;
+}
+.jumbotronGry2 h1,
+.jumbotronGry2 .h1 {
+  color: inherit;
+}
+.jumbotronGry2 p {
+  margin-bottom: 15px;
+  font-size: 21px;
+  font-weight: 200;
+}
+.jumbotronGry2 > hr {
+  border-top-color: #d5d5d5;
+}
+.container .jumbotronGry2,
+.container-fluid .jumbotronGry2 {
+  padding-right: 15px;
+  padding-left: 15px;
+  border-radius: 6px;
+}
+.jumbotronGry2 .container {
+  max-width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .jumbotronGry2 {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+  .container .jumbotronGry2,
+  .container-fluid .jumbotronGry2 {
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+  .jumbotronGry2 h1,
+  .jumbotronGry2 .h1 {
+    font-size: 63px;
+  }
+}
+
+
+
 .thumbnail {
   display: block;
   padding: 4px;
