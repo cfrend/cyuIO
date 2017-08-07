@@ -3,6 +3,13 @@ import ScrollableAnchor from 'react-scrollable-anchor';
 
 export class Product extends React.Component {
       render(){
+            let activeVid = 0;
+            let vidURL = [
+                  "https://www.youtube.com/embed/K0YWSkClm2I",
+                  "https://www.youtube.com/embed/77CM_XwB65A",
+                  "https://www.youtube.com/embed/K0YWSkClm2I",
+
+            ];
             return(
                   <ScrollableAnchor id={'Product'}>
                         {/*Carosel slide show system*/}
@@ -61,22 +68,36 @@ export class Product extends React.Component {
                                 </div>
                                {/*YouTube selection*/}
                                <div className="container">
+                                      <h3 className="text-cyutilWhite" >PRODUCT</h3>
                                       <div className="jumbotronGry2">
+
                                           <div className="row">
                                                 <div className="col-lg-4">
-                                                      <iframe width="560" height="315" src="https://www.youtube.com/embed/K0YWSkClm2I"></iframe>
+                                                      <iframe width="560" height="315" src={vidURL[activeVid]}></iframe>
                                                 </div>
                                                 <div className="col-lg-4">
                                                       <br></br>
                                                 </div>
                                                 <div className="col-lg-4">
+                                                            <a href="#Order">
+                                                                  <img width="160" height="90" src="/images/vidThumbnail1.jpg"></img>
+                                                            </a>
+                                                            <a href="#">
+                                                                  <img width="160" height="90" src="/images/vidThumbnail2.jpg"></img>
+                                                            </a>
+                                                            <a >
+                                                                  <img width="160" height="90" src="/images/vidThumbnail3.jpg"></img>
+                                                            </a>
+                                                            <a href="#Order">
+                                                                  <img width="160" height="90" src="/images/vidThumbnail4.jpg"></img>
+                                                            </a>
+                                                            <a href="#Order">
+                                                                  <img width="160" height="90" src="/images/vidThumbnail5.jpg"></img>
+                                                            </a>
+                                                            <a href="#Order">
+                                                                  <img width="160" height="90" src="/images/vidThumbnail6.jpg"></img>
+                                                            </a>
 
-                                                            <iframe width="160" height="90" src="https://www.youtube.com/embed/K0YWSkClm2I"></iframe>
-                                                            <iframe width="160" height="90" src="https://www.youtube.com/embed/K0YWSkClm2I"></iframe>
-                                                            <iframe width="160" height="90" src="https://www.youtube.com/embed/K0YWSkClm2I"></iframe>
-                                                            <iframe width="160" height="90" src="https://www.youtube.com/embed/K0YWSkClm2I"></iframe>
-                                                            <iframe width="160" height="90" src="https://www.youtube.com/embed/K0YWSkClm2I"></iframe>
-                                                            <iframe width="160" height="90" src="https://www.youtube.com/embed/K0YWSkClm2I"></iframe>
                                                 </div>
                                           </div>
                                      </div>
