@@ -5,9 +5,9 @@ export class Product extends React.Component {
       render(){
             let activeVid = 0;
             let vidURL = [
-                  "https://www.youtube.com/embed/K0YWSkClm2I",
                   "https://www.youtube.com/embed/77CM_XwB65A",
                   "https://www.youtube.com/embed/K0YWSkClm2I",
+                  "https://www.youtube.com/embed/K0YWSkClm2I"
 
             ];
             return(

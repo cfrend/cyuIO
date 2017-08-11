@@ -6,7 +6,7 @@ export class QA extends React.Component {
             return(
                   <ScrollableAnchor id={'QA'}>
                     <div className="container-fluid">
-                        <div className="jumbotronBlu2" >
+                        <div className="jumbotronBlu3" >
                               <h1>Testing Text</h1>
                               <hr className="my-4" />
                         </div>
