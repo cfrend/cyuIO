@@ -1,14 +1,20 @@
 import React from "react";
 import ScrollableAnchor from 'react-scrollable-anchor';
 
+
 export class Product extends React.Component {
       render(){
+            function switchVid (num){
+                  activeVid = num;
+            }
             let activeVid = 0;
             let vidURL = [
+                  /*videoOne: "https://www.youtube.com/embed/K0YWSkClm2I",
+                  videoTwo: "https://www.youtube.com/embed/77CM_XwB65A",
+                  videoThree: "https://www.youtube.com/embed/K0YWSkClm2I"*/
                   "https://www.youtube.com/embed/K0YWSkClm2I",
                   "https://www.youtube.com/embed/77CM_XwB65A",
-                  "https://www.youtube.com/embed/K0YWSkClm2I",
-
+                  "https://www.youtube.com/embed/K0YWSkClm2I"
             ];
             return(
                   <ScrollableAnchor id={'Product'}>
@@ -73,15 +79,19 @@ export class Product extends React.Component {
 
                                           <div className="row">
                                                 <div className="col-lg-4">
-                                                      <iframe width="560" height="315" src={vidURL[activeVid]}></iframe>
+                                                      {/*<iframe width="560" height="315" src={vidURL[activeVid]}></iframe>*/}
+                                                      <iframe width='560' height='315' src={vidURL[activeVid]}></iframe>
                                                 </div>
                                                 <div className="col-lg-4">
                                                       <br></br>
                                                 </div>
                                                 <div className="col-lg-4">
-                                                            <a href="#Order">
+                                                            {/*<a href="#Order">
                                                                   <img width="160" height="90" src="/images/vidThumbnail1.jpg"></img>
-                                                            </a>
+                                                            </a>*/}
+                                                            <button onClick={switchVid(1)} className="btn btn-default" >
+                                                                  <img src="/images/vidThumbnail1.jpg" width="120" />
+                                                            </button>
                                                             <a href="#">
                                                                   <img width="160" height="90" src="/images/vidThumbnail2.jpg"></img>
                                                             </a>
