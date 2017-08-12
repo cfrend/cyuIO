@@ -7,7 +7,7 @@ configureAnchors({offset: -60, scrollDuration: 700});
 export class Header extends React.Component {
       render(){
             return(
-                        <nav className="navbar navbar-default">
+                        <nav className="navbar navbar-inverse">
                           <div className="container-fluid">
                            {/* Brand and toggle get grouped for better mobile display */}
                             <div className="navbar-header">

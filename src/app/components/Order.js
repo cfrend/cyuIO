@@ -9,10 +9,28 @@ export class Order extends React.Component {
                         <div className="container">
                               <h3 className="text-cyutilWhite" >ORDER</h3>
                               <div className="jumbotronGry1" >
-                                    <h2 className="text-cyutilGry2">cy.PIPES Beta Test Units Available in September 2017 on Indigogo</h2>
-                                    <div className="text-cyutilWhite">Details will be posted here when ready.</div>
-                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/8A-lMM75KNs"></iframe>
-                                    <div className="text-cyutilBlack">A message from Chauncey about the beta test program.</div>
+                                    <div className="row">
+                                           <div className="col-md-4">
+                                                <div className="text-cyutilWhite">
+                                                      <div className="text-right">
+                                                            <p>cy.PIPES™ beta test units will be available starting in September 2017 on Indigogo.</p>
+                                                      </div>
+                                                </div>
+                                          </div>
+                                          <div className="col-md-4">
+                                                      <div className="embed-responsive embed-responsive-16by9">
+                                                            <iframe width="360" height="203" src="https://www.youtube.com/embed/8A-lMM75KNs"></iframe>
+                                                      </div>
+                                                <div className="text-center text-cyutilGry2">
+                                                      <p>A message from Chauncey about the beta test program.</p>
+                                                </div>
+                                          </div>
+                                          <div className="col-md-4">
+                                                <div className="text-cyutilWhite text-left">
+                                                            <p>Details and announcements will be posted here and on <a href="https://www.facebook.com/Cyutil/">facebook</a> when ready.</p>
+                                                </div>
+                                          </div>
+                                    </div>
                               </div>
                         </div>
                   </div>

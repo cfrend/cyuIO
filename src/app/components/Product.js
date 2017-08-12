@@ -5,10 +5,8 @@ export class Product extends React.Component {
       render(){
             let activeVid = 0;
             let vidURL = [
-                  "https://www.youtube.com/embed/77CM_XwB65A",
                   "https://www.youtube.com/embed/K0YWSkClm2I",
-                  "https://www.youtube.com/embed/K0YWSkClm2I"
-
+                  "https://www.youtube.com/embed/77CM_XwB65A"
             ];
             return(
                   <ScrollableAnchor id={'Product'}>
@@ -68,39 +66,81 @@ export class Product extends React.Component {
                                 </div>
                                {/*YouTube selection*/}
                                <div className="container">
-                                      <h3 className="text-cyutilWhite" >PRODUCT</h3>
-                                      <div className="jumbotronGry2">
-
+                                    <h3 className="text-cyutilWhite" >PRODUCT</h3>
+                                    <div className="jumbotronGry2">
                                           <div className="row">
-                                                <div className="col-lg-4">
-                                                      <iframe width="560" height="315" src={vidURL[activeVid]}></iframe>
-                                                </div>
-                                                <div className="col-lg-4">
-                                                      <br></br>
-                                                </div>
-                                                <div className="col-lg-4">
+                                                <div className="col-md-8">
+                                                      <div className="embed-responsive embed-responsive-16by9">
+                                                            <iframe width="610" height="343" src={vidURL[activeVid]}></iframe>
+                                                      </div>
+                                                      <br/>
+                                                      <br/>
+                                                </div>{/*Main Vid*/}
+                                                      <div className="col-sm-4">
                                                             <a href="#Order">
-                                                                  <img width="160" height="90" src="/images/vidThumbnail1.jpg"></img>
+                                                                  <img width="190" height="107" src="/images/vidThumbnail1.jpg"></img>
+                                                                        <br/>
+                                                                        <br/>
                                                             </a>
+                                                    </div>
+                                                    <div className="col-sm-4">
+                                                          <a href="#">
+                                                                  <img width="190" height="107" src="/images/vidThumbnail2.jpg"></img>
+                                                                      <br/>
+                                                                      <br/>
+                                                          </a>
+                                                    </div>
+                                                    <div className="col-sm-4">
                                                             <a href="#">
-                                                                  <img width="160" height="90" src="/images/vidThumbnail2.jpg"></img>
-                                                            </a>
-                                                            <a >
-                                                                  <img width="160" height="90" src="/images/vidThumbnail3.jpg"></img>
-                                                            </a>
-                                                            <a href="#Order">
-                                                                  <img width="160" height="90" src="/images/vidThumbnail4.jpg"></img>
-                                                            </a>
-                                                            <a href="#Order">
-                                                                  <img width="160" height="90" src="/images/vidThumbnail5.jpg"></img>
-                                                            </a>
-                                                            <a href="#Order">
-                                                                  <img width="160" height="90" src="/images/vidThumbnail6.jpg"></img>
-                                                            </a>
-
+                                                                  <img width="190" height="107" src="/images/vidThumbnail3.jpg"></img>
+                                                                        <br/>
+                                                                        <br/>
+                                                          </a>
+                                                    </div>
+                                                <br/>
+                                                <br/>
+                                                <br/>
+                                    </div>{/*Small vids*/}
+                                    <div className="row">
+                                          <div className="col-md-4">
+                                                <div className="wellGry1">
+                                                      <div className="text-cyutilWhite">
+                                                            <p>cy.PIPES™ extends VR systems with high voltage control of common enviromental feedback devices (EFDs) like fans for wind effects, heat lamps for warmth effects, and solenoid valves for custom effects.</p>
+                                                      </div>
                                                 </div>
                                           </div>
-                                     </div>
+                                          <div className="col-md-8">
+                                                <div className="row">
+                                                      <div className="col-md-6">
+                                                            <div className="wellGry1">2</div>
+                                                      </div>
+                                                      <div className="col-md-6">
+                                                             <div className="wellGry1">3</div>
+                                                             <hr className="my-4" />
+                                                      </div>
+                                                </div>
+                                                <div className="row">
+                                                       <div className="col-md-6">
+                                                             <div className="wellGry1">4</div>
+                                                      </div>
+                                                      <div className="col-md-6">
+                                                             <div className="wellGry1">5</div>
+                                                      </div>
+                                                </div>
+                                          </div>
+                                          </div>
+                                          <div className="row">
+                                                 <div className="col-md-4">
+                                                      <div className="wellGry1">6</div>
+                                                </div>
+                                                <div className="col-md-4">
+                                                      <div className="wellGry1">7</div>
+                                                </div>
+                                                <div className="col-md-4">
+                                                      <div className="wellGry1">8</div>
+                                                </div>
+                                          </div>
+                                    </div>{/*Jumbotron*/}
                               </div>
                         </div>
             </ScrollableAnchor>
