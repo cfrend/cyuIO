@@ -14,20 +14,22 @@ export class Order extends React.Component {
                                                 <div className="text-cyutilWhite">
                                                       <div className="text-right">
                                                             <p>cy.PIPES™ beta test units will be available starting in September 2017 on Indigogo.</p>
+                                                            <h1><span className="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></h1>
                                                       </div>
                                                 </div>
                                           </div>
                                           <div className="col-md-4">
                                                       <div className="embed-responsive embed-responsive-16by9">
-                                                            <iframe width="360" height="203" src="https://www.youtube.com/embed/8A-lMM75KNs"></iframe>
+                                                            <iframe width="360" height="203" src="https://www.youtube.com/embed/v7Bv2loQWmw" allowFullScreen></iframe>
                                                       </div>
-                                                <div className="text-center text-cyutilGry2">
+                                                <div className="text-center text-cyutilWhite">
                                                       <p>A message from Chauncey about the beta test program.</p>
                                                 </div>
                                           </div>
                                           <div className="col-md-4">
                                                 <div className="text-cyutilWhite text-left">
                                                             <p>Details and announcements will be posted here and on <a href="https://www.facebook.com/Cyutil/">facebook</a> when ready.</p>
+                                                            <h1><span className="glyphicon glyphicon-chevron-left" aria-hidden="true"></span></h1>
                                                 </div>
                                           </div>
                                     </div>

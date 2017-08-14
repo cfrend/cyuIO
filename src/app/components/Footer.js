@@ -25,9 +25,7 @@ export class Footer extends React.Component {
                                                 <br/>
                                                 <br/>
                                                 <br/>
-                                                <br/>
-                                                <br/>
-                                                <img width="160" height="23" src="/images/footerSym.png"></img>
+                                                <img width="160" height="23" src="/images/footerSymGry.png"></img>
                                           </div>
                                     </div>
                                     <div className="col-md-4">

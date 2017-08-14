@@ -31,7 +31,7 @@ export class QA extends React.Component {
                                           <div className="text-center text-cyutilWhite">
                                                <p><b>Can I control hydraulic or robotics with cy.PIPES™?</b></p>
                                                <hr className="my-4" />
-                                               No, cy.PIPES™ is a control solution for ON and OFF high voltage control.  More complex items like hydraulic cylinders or robotic parts should be controlled by industrial controllers like programmable logic controllers (PLCs).  cy.PIPES™ has USB ports and bluetooth connectivity that will be utilized in future versions of the firmware to control more complex EFDs.
+                                               No, cy.PIPES™ is a control solution for ON and OFF high voltage control as well is PWM based on simple timers.  More complex items like hydraulic cylinders or robotic parts should be controlled by industrial controllers like programmable logic controllers (PLCs) or Digital Multiplex controllers (DMX).  cy.PIPES™ has USB ports and bluetooth connectivity that will be utilized in future versions of the firmware to control more complex EFDs.
                                          </div>
                                     </div>
                                     <div className="col-md-4">
