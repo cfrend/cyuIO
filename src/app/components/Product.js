@@ -40,9 +40,8 @@ export class Product extends React.Component {
 
                                           <div className="item active">
                                             <img src="/images/slide1.jpg" alt="Chania" width="1200" height="700" />
-                                            <div className="carousel-caption">
-
-                                              <img src="/images/IntroducingcyPIPES.png" />
+                                            <div className="container-fluid carousel-caption">
+                                                 <img max-height=100% max-width=100% src="/images/IntroducingcyPIPES280x90.png" />
                                               <p className="text-cyutilWhite">A control solution for VR developers.</p>
                                             </div>
                                           </div>
