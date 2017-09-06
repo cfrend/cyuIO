@@ -37,15 +37,21 @@ export class Header extends React.Component {
                               <ul className="nav navbar-nav navbar-right">
                                 <li>
                                       <a href="https://www.facebook.com/Cyutil/">
-                                            <img alt="Brand" height="27" src="../images/facebook40x40.png"/>
+                                            <img alt="Facebook" height="27" src="../images/facebook40x40.png"/>
                                      </a>
                                </li>
                                <li>
-                                     <a href="#">
-                                           <img alt="Brand" height="30
-                                                 " src="../images/youtube40x40.png"/>
+                                     <a href="https://www.youtube.com/channel/UC81j9qMnzH3hMmjonhwI7zg/">
+                                           <img alt="YouTube" height="30
+                                                 " src="../images/youtube2_40x40.png"/>
                                     </a>
                               </li>
+                              <li>
+                                    <a href="https://github.com/CYUTIL/">
+                                          <img alt="GitHub" height="30
+                                                " src="../images/github40x40.png"/>
+                                   </a>
+                             </li>
                               </ul>
                         </div>{/* /.navbar-collapse */}
                   </div>{/* /.container-fluid */}

@@ -25,7 +25,7 @@ export class IP extends React.Component {
                                               <h1><span className="glyphicon glyphicon-modal-window" aria-hidden="true"></span></h1>
                                               <h2>Patents</h2>
                                               <hr className="my-4" />
-                                              We have patented our technology in the United States.<br/>U.S. Patent PCT/US2017/018095
+                                               We have patent applications pending in the United States for our technology.<br/>U.S. Patent PCT/US2017/018095
                                           </div>
                                        </div>
                                        <div className="col-md-4">
