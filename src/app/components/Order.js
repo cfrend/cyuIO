@@ -13,7 +13,7 @@ export class Order extends React.Component {
                                            <div className="col-md-4">
                                                 <div className="text-cyutilWhite">
                                                       <div className="text-right">
-                                                            <p>cy.PIPES™ beta test units will be available starting in September 2017 on Indigogo.</p>
+                                                            <p>cy.PIPES™ beta test units will be available starting in mid-October 2017 on Indigogo. Beta test units will only be sold in the US for now.</p>
                                                             <h1><span className="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></h1>
                                                       </div>
                                                 </div>
@@ -23,7 +23,7 @@ export class Order extends React.Component {
                                                             <iframe width="360" height="203" src="https://www.youtube.com/embed/v7Bv2loQWmw" allowFullScreen></iframe>
                                                       </div>
                                                 <div className="text-center text-cyutilWhite">
-                                                      <p>A message from Chauncey about the beta test program.</p>
+                                                      <p>A message from Chauncey about availability will be posted here from time to time.</p>
                                                 </div>
                                           </div>
                                           <div className="col-md-4">
