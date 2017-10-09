@@ -24,7 +24,7 @@ export class QA extends React.Component {
                                            <div className="text-center text-cyutilWhite">
                                                 <p><b>What VR systems is cy.PIPES™ compatible with?</b></p>
                                                 <hr className="my-4" />
-                                                Currently cy.PIPES™ supports the HTC Vive system.  Support for the Rift is progressing, but not ready quite yet.
+                                                Currently cy.PIPES™ supports the HTC Vive™ and Oculus Rift™ systems through the steamVR runtime.
                                           </div>
                                     </div>
                                     <div className="col-md-4">
