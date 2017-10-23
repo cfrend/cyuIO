@@ -138,7 +138,7 @@ export class Product extends React.Component {
                                                       <div className="col-md-6">
                                                              <div className="wellGry1 text-cyutilWhite text-center">
                                                                   <h2><i>Custom effects for many VR systems</i></h2>
-                                                                  <p><i>(Vive Officially supported.<br/>Rift, HoloLens, and CAVE support coming soon.)</i></p>
+                                                                  <p><i>(Vive & Rift Officially supported.<br/> HoloLens and CAVE support coming soon.)</i></p>
                                                              </div>
                                                             <hr className="my-4" />
 

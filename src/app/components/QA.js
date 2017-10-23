@@ -24,7 +24,7 @@ export class QA extends React.Component {
                                            <div className="text-center text-cyutilWhite">
                                                 <p><b>What VR systems is cy.PIPES™ compatible with?</b></p>
                                                 <hr className="my-4" />
-                                                Currently cy.PIPES™ supports the HTC Vive™ and Oculus Rift™ systems through the steamVR runtime.  Development workflows are fully supporting in Unity.
+                                                Currently cy.PIPES™ supports the HTC Vive™ and Oculus Rift™ systems through the steamVR runtime.  Development workflows fully support Unity.
                                           </div>
                                     </div>
                                     <div className="col-md-4">
@@ -38,7 +38,7 @@ export class QA extends React.Component {
                                           <div className="text-center text-cyutilWhite">
                                                <p><b>How can I create a smell emitter using cy.PIPES™?</b></p>
                                                <hr className="my-4" />
-                                                To do this you will have to create a custom effect feedback device (EFD) to do this.  If you are interested in building custom EFDs like smell emitters with cy.PIPES™ take a look at our YouTube page.  We will post examples of custom EFDs built by developers using cy.PIPES™ to acheive effects like shake, smell, or even rain effects.
+                                                To do this you will have to create a custom effect feedback device (EFD).  If you are interested in building custom EFDs like smell emitters with cy.PIPES™ take a look at our YouTube page.  We will post examples of custom EFDs built by developers using cy.PIPES™ to acheive effects like shake, smell, or even rain effects.
                                          </div>
                                     </div>
                               </div>
