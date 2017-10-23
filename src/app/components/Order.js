@@ -20,7 +20,7 @@ export class Order extends React.Component {
                                           </div>
                                           <div className="col-md-4">
                                                       <div className="embed-responsive embed-responsive-16by9">
-                                                            <iframe width="360" height="203" src="https://youtu.be/OpDxGwWjQIg" allowFullScreen></iframe>
+                                                            <iframe width="360" height="203" src="https://www.youtube.com/embed/OpDxGwWjQIg" allowFullScreen></iframe>
                                                       </div>
                                                 <div className="text-center text-cyutilWhite">
                                                       <p>To be notified on the availability please sign up for updates on this <a href="https://www.indiegogo.com/projects/cy-pipes-early-adopter-offering/coming_soon">IndiGoGo</a> pre-launch page.</p>
