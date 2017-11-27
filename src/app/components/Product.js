@@ -39,10 +39,10 @@ export class Product extends React.Component {
                                         <div className="carousel-inner" role="listbox">
 
                                           <div className="item active">
-                                            <img src="/images/slide1.jpg" alt="Chania" width="1200" height="700" />
+                                            <img src="/images/slide1.jpg" alt="Chania" width="1200" height="700" href="https://igg.me/at/cyPIPES" />
                                             <div className="container-fluid carousel-caption">
-                                                 <img max-height="100%" max-width="100%" src="/images/IntroducingcyPIPES280x90.png" />
-                                              <p className="text-cyutilWhite">A control solution for VR developers.</p>
+                                                 {/*<!-<img max-height="100%" max-width="100%" src="/images/IntroducingcyPIPES280x90.png" />-->*/}
+                                              {/*<!- <p className="text-cyutilWhite">A control solution for VR developers.</p>-->*/}
                                             </div>
                                           </div>
 

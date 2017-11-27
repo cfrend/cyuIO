@@ -31,6 +31,7 @@ export class Header extends React.Component {
                                 <li><a href="#Order">Order</a></li>
                                 <li><a href="#QA">Q&A</a></li>
                                 <li><a href="#IP">IP</a></li>
+                                <li><a href="#Podcast">Podcast</a></li>
                                 <li><a href="#">Developers</a></li>
                               </ul>
                               {/* right side navbar*/}

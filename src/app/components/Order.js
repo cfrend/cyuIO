@@ -13,7 +13,7 @@ export class Order extends React.Component {
                                            <div className="col-md-4">
                                                 <div className="text-cyutilWhite">
                                                       <div className="text-right">
-                                                            <p>cy.PIPES™ Early Adopter units will be available for pre-order on Indigogo before the end of the month. These test units will only be sold in the US for now.</p>
+                                                            <p>cy.PIPES Early Adopter Units are available now on this  <a href="https://igg.me/at/cyPIPES">IndiGoGo</a> campaign page.</p>
                                                             <h1><span className="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></h1>
                                                       </div>
                                                 </div>
@@ -23,7 +23,7 @@ export class Order extends React.Component {
                                                             <iframe width="360" height="203" src="https://www.youtube.com/embed/OpDxGwWjQIg" allowFullScreen></iframe>
                                                       </div>
                                                 <div className="text-center text-cyutilWhite">
-                                                      <p>To be notified on the availability please sign up for updates on this <a href="https://www.indiegogo.com/projects/cy-pipes-early-adopter-offering/coming_soon">IndiGoGo</a> pre-launch page.</p>
+                                                      <p>These early adopter units will only be sold in the US for now.</p>
                                                 </div>
                                           </div>
                                           <div className="col-md-4">
