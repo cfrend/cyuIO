@@ -10,9 +10,9 @@ export class Footer extends React.Component {
                                      <div className="col-md-4">
                                        <div className="text-right text-cyutilWhite">
                                              <h3>Contact</h3>
-                                                   <i>General Questions</i>
+                                                   {/*<i>General Questions</i>
                                                    <br/>
-                                                   <a href="mailto:info@cyutil.io">info@cyutil.io</a>
+                                                   <a href="mailto:info@cyutil.io">info@cyutil.io</a>*/}
                                                    <br/>
                                                    <br/>
                                                    <i>Founder Chauncey Frend</i>
