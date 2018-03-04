@@ -6,9 +6,9 @@ export class Product extends React.Component {
             super();
             this.state = {
                   videoURL:  [
-                        "https://www.youtube.com/embed/K0YWSkClm2I",
-                        "https://www.youtube.com/embed/77CM_XwB65A",
-                        "https://www.youtube.com/embed/v7Bv2loQWmw"
+                        "https://www.youtube.com/embed/OpDxGwWjQIg",
+                        "https://www.youtube.com/embed/MWNSN6sjVus",
+                        "https://www.youtube.com/embed/KewptWxsDDY"
                   ],
                   activeVideo: 0
             };
