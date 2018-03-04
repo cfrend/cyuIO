@@ -49,14 +49,14 @@ export class Product extends React.Component {
                                           <div className="item">
                                             <img src="/images/slide2.jpg" alt="Chania" width="1200" height="700" />
                                             <div className="carousel-caption">
+                                            <h3>A tool for 4D VR installations</h3>
+                                            <p>Environmental feedback in VR systems, extend presence to a new level of realism.</p>
                                             </div>
                                           </div>
 
                                           <div className="item">
                                             <img src="/images/slide3.jpg" alt="Flower" width="1200" height="700" />
                                             <div className="carousel-caption">
-                                              <h3>A tool for 4D installations</h3>
-                                              <p>Environmental feedback in VR systems extends presence to a new level of realism.</p>
                                             </div>
                                           </div>
 

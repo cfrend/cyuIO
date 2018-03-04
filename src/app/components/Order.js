@@ -13,7 +13,7 @@ export class Order extends React.Component {
                                            <div className="col-md-4">
                                                 <div className="text-cyutilWhite">
                                                       <div className="text-right">
-                                                            <p>cy.PIPES Early Adopter Units are available now on this  <a href="https://igg.me/at/cyPIPES">IndiGoGo</a> campaign page.</p>
+                                                            <p>cy.PIPES Units are available now via contacting our founder <a href="mailto:cfrend@cyutil.io">Chauncey Frend</a> at cfrend@cyutil.io</p>
                                                             <h1><span className="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></h1>
                                                       </div>
                                                 </div>
