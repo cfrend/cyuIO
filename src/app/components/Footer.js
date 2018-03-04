@@ -36,7 +36,7 @@ export class Footer extends React.Component {
                                                 <br/>
                                                 <br/>
                                                 <br/>
-                                                Copyright © 2017 CYUTIL llc. All rights reserved.
+                                                Copyright © 2018 CYUTIL llc. All rights reserved.
                                           </div>
                                     </div>
                               </div>
