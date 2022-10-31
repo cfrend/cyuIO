@@ -1,3 +1,4 @@
 /node_modules
 /npm-debug.log
 /rawMedia
+package-lock.json

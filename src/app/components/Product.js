@@ -34,6 +34,9 @@ export class Product extends React.Component {
                                           <li data-target="#myCarousel" data-slide-to="1"></li>
                                           <li data-target="#myCarousel" data-slide-to="2"></li>
                                           <li data-target="#myCarousel" data-slide-to="3"></li>
+                                          <li data-target="#myCarousel" data-slide-to="4"></li>
+                                          <li data-target="#myCarousel" data-slide-to="5"></li>
+                                          <li data-target="#myCarousel" data-slide-to="6"></li>
                                         </ol>
 
                                         <div className="carousel-inner" role="listbox">
@@ -49,14 +52,14 @@ export class Product extends React.Component {
                                           <div className="item">
                                             <img src="/images/slide2.jpg" alt="Chania" width="1200" height="700" />
                                             <div className="carousel-caption">
-                                            <h3>A tool for 4D VR installations</h3>
-                                            <p>Environmental feedback in VR systems, extend presence to a new level of realism.</p>
                                             </div>
                                           </div>
 
                                           <div className="item">
                                             <img src="/images/slide3.jpg" alt="Flower" width="1200" height="700" />
                                             <div className="carousel-caption">
+                                            <h3>A tool for 4D VR installations</h3>
+                                            <p>Environmental feedback in VR systems, extend presence to a new level of realism.</p>
                                             </div>
                                           </div>
 
@@ -65,6 +68,25 @@ export class Product extends React.Component {
                                             <div className="carousel-caption">
                                             </div>
                                           </div>
+
+                                          <div className="item">
+                                            <img src="/images/slide5.jpg" alt="Chania" width="1200" height="700" />
+                                            <div className="carousel-caption">
+                                            </div>
+                                          </div>
+
+                                          <div className="item">
+                                            <img src="/images/slide6.jpg" alt="Chania" width="1200" height="700" />
+                                            <div className="carousel-caption">
+                                            </div>
+                                          </div>
+
+                                          <div className="item">
+                                            <img src="/images/slide7.jpg" alt="Chania" width="1200" height="700" />
+                                            <div className="carousel-caption">
+                                            </div>
+                                          </div>
+
                                         </div>
                                         {/*<!-- Left and right controls -->*/}
                                         <a className="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
